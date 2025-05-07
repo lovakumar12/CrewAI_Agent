@@ -1,1 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.virtualenv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# dotenv environment variables file
 .env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build and distribution
+/dist
+/build
+/__pycache__
+*.egg-info/
+.eggs/
+
+# ML & Data
+/data
+/output
+/results
+
+# Secret scanning bypass (if needed, not recommended)
+# DO NOT UNCOMMENT unless you know what you're doing
+#.git-blame-ignore-revs
+
